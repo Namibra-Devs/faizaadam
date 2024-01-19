@@ -1,0 +1,39 @@
+:root {
+
+  --ff-primary {
+    font-family: "Exo", sans-serif;
+  }
+}
+
+body {
+  font-family: "Exo", sans-serif !important;
+}
+/* .logo-img {
+    width: 5rem !important;
+} */
+
+.other, .talk {
+  margin-left: -.8rem;
+  z-index: -1000 !important;
+}
+
+.talk:active, .talk:hover, .talk:focus,
+.toggle-bar:active, .toggle-bar:hover, .toggle-bar:focus {
+outline: none !important;
+box-shadow: none !important;
+background-color: #f5f2f2 !important;
+}
+
+.peacegril {
+  width: 3.5rem;
+  margin-bottom: -1rem;
+}
+
+.resume {
+  width: 1.2rem;
+  margin-right: .2rem;
+}
+
+.purple {
+  color: #9747FF;
+}
