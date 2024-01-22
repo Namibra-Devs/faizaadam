@@ -93,6 +93,10 @@ body {
     }
 
     p.other, #resume, span.others {
-      font-size: small;
+      font-size: small !important;
+    }
+
+    p.fs-small {
+      font-size: medium !important;
     }
   }
