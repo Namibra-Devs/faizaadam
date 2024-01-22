@@ -48,3 +48,37 @@ body {
   border: 2px solid black !important;
   
 }
+
+.shadow-effect {
+  border: 1.4px solid #D9D9D9;
+}
+
+.customer-profile {
+  margin-top: -5rem;
+}
+
+  .carousel-np {
+    display: flex;
+    justify-content: center;
+    margin-top: 28rem;
+    height: 5rem !important;
+    padding: 0 2rem;
+  }
+
+  .carousel-np .carousel-control-prev,
+  .carousel-np .carousel-control-next {
+    position: relative;
+    margin: 0 1rem;
+    width: 100%;
+  }
+  .carousel-indicators {
+    margin-top: 1rem !important;
+    
+  }
+
+
+  @media (max-width: 768px) {
+    .carousel-np {
+      margin-top: 34rem;
+    }
+  }
