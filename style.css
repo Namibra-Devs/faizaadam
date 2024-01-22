@@ -76,6 +76,11 @@ body {
     
   }
 
+  .cprofile {
+    width: 6rem;
+    height: 6rem;
+  }
+
 
   @media (max-width: 768px) {
     .carousel-np {
